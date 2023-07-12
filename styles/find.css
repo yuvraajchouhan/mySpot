@@ -1,0 +1,50 @@
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    display: none;
+  }
+
+  .filterDiv2 {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    display: none;
+  }
+  
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+ .btnfilter {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: mediumspringgreen;
+    cursor: pointer;
+  }
+  
+  .btnfilter:hover {
+    background-color: #ddd;
+  }
+  
+  .btnfilter.active {
+    background-color: #666;
+    color: white;
+  }
+  

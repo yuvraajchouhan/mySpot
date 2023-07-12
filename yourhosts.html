@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>mySpot</title>
+  <meta name="comp1800 template" content="My 1800 App">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Library CSS CDN go here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Boostrap Library JS CDN  go here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <!-- Other libraries go here -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sticky-footer/">
+
+  <!-- Link to styles of your own -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+
+</head>
+
+<body>
+
+  <!------------------------------>
+  <!-- Your HTML Layout go here -->
+  <!------------------------------>
+  <nav id="navbarPlaceholder"></nav>
+
+  <h1>Manage Your Spots</h1>
+  <br>
+  <div class="col">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="d-flex justify-content-between
+          align-items-center">
+          <div class="btn-group">
+            <p>Host a new Spot!</p>
+            <button type="button" class="btn btn-sm
+              btn-outline-secondary"><a href="host.html"><span class="material-symbols-outlined">
+                  add
+                </span></a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <h1>Your Current Hosts</h1>
+      <div class="container">
+        <div id="parkingspotCardGroup" class="row row-cols-auto">
+        </div>
+      </div>
+    </div>
+
+
+
+    <template id="parkingspotCardTemplate">
+      <div class="card">
+        <img class="card-img-top">
+        <img src="/images/AB01.jpg" alt="Parking spot image">
+        <div class="card-body">
+          <h5 class="location">placeholder</h5>
+          <p class="card-description">placeholder </p>
+          <p>Available? <span class="card-status">placeholder</span></p>
+
+          <br>
+          </p>
+          <a id="cancel" href="#" class="btn btn-danger book-now" style="float: right">Make Unavailable</a>
+          <a id="uncancel" href="#" class="btn btn-primary book-now" style="float: right">Make Available</a>
+        </div>
+      </div>
+    </template>
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+    <nav id="footerPlaceholder"></nav>
+
+
+    <!---------------------------------------------->
+    <!-- Your own JavaScript functions go here    -->
+    <!---------------------------------------------->
+
+    <!-- Link to scripts of your own -->
+    <!-- <script src="./scripts/script.js"></script> -->
+    <script src="./scripts/firebaseAPI_TEAM24.js"></script>
+    <script src="./scripts/host.js"></script>
+    <script src="./scripts/skeleton.js"></script>
+    <script src="./scripts/yourhosts.js"></script>
+</body>
+
+</html>
