@@ -1,15 +1,20 @@
-## My Web Application (Add your Title here)
+## MySpot
 
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Contents](#content)
 
 ## General Info
-This browser based web application to ...
-* Hi my name is Tomasz, I am excited for this project because it will be my first project	
-* Hi my name is Leo. I am excited about this project because I haven't learned about coding before.
-	
-* Hi my name is Yuvraaj. I am excited for this project as I want to solve a problem with the skills I learn throughout my time in CST.
+Welcome to MySpot, an innovative parking solution designed to make your urban travels easier and more efficient. At the heart of MySpot is a user-friendly platform that connects drivers with available parking spaces in busy city areas, revolutionizing the way parking is done.
+
+##Purpose
+Our app is tailored for the modern urbanite who values time and convenience. Whether you're a commuter, a visitor exploring the city, or a resident in need of a regular parking spot, MySpot offers a seamless experience. By leveraging technology, we simplify the process of finding and booking a parking spot, eliminating the common hassles associated with urban parking.
+
+##How It Works
+Users can browse, reserve, and pay for parking spots through our app. Hosts can list their available spaces, set custom pricing, and manage bookings. The process is streamlined through an intuitive interface, making it accessible for everyone.
+
+##Accessibility
+MySpot is designed to be inclusive and accessible, featuring an easy-to-navigate interface with support for various devices.
 
 ## Technologies
 Technologies used for this project:
